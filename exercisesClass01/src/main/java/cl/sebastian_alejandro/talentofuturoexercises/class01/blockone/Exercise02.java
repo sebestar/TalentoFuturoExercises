@@ -1,3 +1,12 @@
+/*
+ * This file is part of TalentoFuturoExercises.
+ *
+ * Copyright 2024 Sebestar
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * See the LICENSE file for more information.
+ */
+
 package cl.sebastian_alejandro.talentofuturoexercises.class01.blockone;
 
 import java.util.Scanner;
