@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.2.0] - 2024-10-18
+### Added
+- 	inside class01 - Exercises 04 to 07
+-	docs: Added README.md
+
+### Changed
+- 
+
+### Fixed
+-
+
+### Removed
+- 
+
 ## [0.1.1] - 2024-10-17
 ### Added
 - 	ChangeLog.md
