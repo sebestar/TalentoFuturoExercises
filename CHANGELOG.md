@@ -2,9 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.0] - 2024-10-21
+### Added
+- 	inside class01 - block 02 - Exercises 09 to 10
+
+
 ## [0.5.0] - 2024-10-20
 ### Added
-- 	inside class01 - Exercise 09 to 10
+- 	inside class01 - Exercises 09 to 10
 
 
 ## [0.3.0] - 2024-10-19
