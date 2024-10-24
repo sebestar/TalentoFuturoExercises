@@ -33,8 +33,9 @@ public class Block1Exercise01 {
 
   private static int[] getRandomNumbersArray(int amountNumbers) {
     int[] numbers = new int[amountNumbers];
+    Random random = new Random();
     for (int i = 0; i < amountNumbers; i++) {
-      numbers[i] = new Random().nextInt(100);
+      numbers[i] = random.nextInt(100);
     }
     return numbers;
   }

@@ -2,10 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2024-10-24
+### Changed
+- inside class02 - block 01 - Exercise 01
+- Optimizing code
+
+
 ## [1.1.0] - 2024-10-23
 ### Added
 - created class02 project
 - inside class02 - block 01 - Exercises 01 to 02
+
 
 ## [1.0.0] - 2024-10-22
 ### Added
