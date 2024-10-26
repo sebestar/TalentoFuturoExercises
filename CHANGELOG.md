@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2024-10-25
+### Added
+- inside class02 - block 01 - Exercises 03 to 06
+
+
 ## [1.1.1] - 2024-10-24
 ### Changed
 - inside class02 - block 01 - Exercise 01
