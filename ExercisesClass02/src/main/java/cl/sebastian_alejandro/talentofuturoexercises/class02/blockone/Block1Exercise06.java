@@ -14,11 +14,12 @@ public class Block1Exercise06 {
   // [EN] Calculate the standard deviation of an array of integers
   // [ES] Calcule la desviación estándar de un arreglo de enteros
 
-  static final int[] NUMBERS = {85, 22, 11, 8, 99, 15};
+  static final int[] POSITIVE_NUMBERS = {85, 22, 11, 8, 99, 15};
+  // The numbers must be between 1 and N in this ecuation.
 
   public static void main(String[] args) {
-    displayNumberArray(NUMBERS);
-    displayStandardDeviation(NUMBERS);
+    displayNumberArray(POSITIVE_NUMBERS);
+    displayStandardDeviation(POSITIVE_NUMBERS);
     System.out.println("Good bye!");
   }
 

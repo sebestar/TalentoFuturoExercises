@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2024-10-26
+### Added
+- inside class02 - block 01 - Exercise 07
+
+### Changed
+- names refactoring class02 - block 01 - Exercise 06
+
+
 ## [1.2.0] - 2024-10-25
 ### Added
 - inside class02 - block 01 - Exercises 03 to 06
