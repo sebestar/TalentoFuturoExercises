@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0] - 2024-10-27
+### Added
+- inside class02 - block 01 - Utility class SquareMatrixBorders.java
+
+
 ## [1.3.0] - 2024-10-26
 ### Added
 - inside class02 - block 01 - Exercise 07
