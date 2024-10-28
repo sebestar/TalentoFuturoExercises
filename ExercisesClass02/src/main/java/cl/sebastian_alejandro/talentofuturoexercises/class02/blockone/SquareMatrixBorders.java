@@ -67,7 +67,7 @@ public class SquareMatrixBorders {
           displayMatrix.append(VERTICAL_LINE);
         }
         int emptySpaces = lengthCols[col] - Integer.toString(this.originalMatrix[row][col]).length();
-        displayMatrix.append(this.originalMatrix[row][col]).append(" ".repeat(emptySpaces)).append(VERTICAL_LINE);
+        displayMatrix.append(" ".repeat(emptySpaces)).append(this.originalMatrix[row][col]).append(VERTICAL_LINE);
         if (col == lengthCols.length -1) {
         	displayMatrix.append("\n");
         }

@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.1] - 2024-10-28
+### Fixed
+- inside class02 - block 01 - getDisplay method in SquareMatrixBorders.java
+
+
 ## [1.4.0] - 2024-10-27
 ### Added
 - inside class02 - block 01 - Utility class SquareMatrixBorders.java
