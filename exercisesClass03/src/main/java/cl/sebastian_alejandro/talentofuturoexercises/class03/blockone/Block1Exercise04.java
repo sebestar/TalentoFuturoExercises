@@ -10,9 +10,7 @@
 package cl.sebastian_alejandro.talentofuturoexercises.class03.blockone;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class Block1Exercise04 {

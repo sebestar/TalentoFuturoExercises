@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.0] - 2024-10-30
+### Added
+- created package others
+- inside others package - BubbleSort.java
+
+### Fixed
+- minor code cleanup
+
+
 ## [2.1.0] - 2024-10-29
 ### Added
 - created class03 project
