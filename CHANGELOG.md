@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.4.0] - 2024-11-01
+### Added
+- created class04 project
+- inside class04 - block 01 - Exercise 01
+
+
 ## [2.3.0] - 2024-10-31
 ### Added
 - inside class03 - block 01 - Exercises 05 to 06
