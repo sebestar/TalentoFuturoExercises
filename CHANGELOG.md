@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.5.0] - 2024-11-02
+### Changed
+- from class02 SquareMatrixBorders, new version V2 in Class03 blocktwo
+
+
 ## [2.4.0] - 2024-11-01
 ### Added
 - created class04 project
