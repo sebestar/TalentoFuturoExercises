@@ -11,17 +11,17 @@ package cl.sebastian_alejandro.talentofuturoexercises.class03.blocktwo;
 
 public class SquareMatrixBordersV2 {
 
-  final String UP_LEFT_BORDER = "╭";
-  final String UP_RIGHT_BORDER = "╮";
-  final String DOWN_LEFT_BORDER = "╰";
-  final String DOWN_RIGHT_BORDER = "╯";
-  final String HORIZONTAL_LINE = "─";
-  final String VERTICAL_LINE = "│";
-  final String UP_ELBOW = "┬";
-  final String DOWN_ELBOW = "┴";
-  final String LEFT_ELBOW = "├";
-  final String RIGHT_ELBOW = "┤";
-  final String CROSS = "┼";
+  private final String UP_LEFT_BORDER = "╭";
+  private final String UP_RIGHT_BORDER = "╮";
+  private final String DOWN_LEFT_BORDER = "╰";
+  private final String DOWN_RIGHT_BORDER = "╯";
+  private final String HORIZONTAL_LINE = "─";
+  private final String VERTICAL_LINE = "│";
+  private final String UP_ELBOW = "┬";
+  private final String DOWN_ELBOW = "┴";
+  private final String LEFT_ELBOW = "├";
+  private final String RIGHT_ELBOW = "┤";
+  private final String CROSS = "┼";
 
   private String[][] originalMatrix;
   private int[] lengthCols;
@@ -75,8 +75,9 @@ public class SquareMatrixBordersV2 {
     for (int j = 0; j < this.originalMatrix[0].length; j++) {
       lengthCol = 0;
       for (int i = 0; i < this.originalMatrix.length; i++) {
-        if (lengthCol < this.originalMatrix[i][j].length())
-          lengthCol = this.originalMatrix[i][j].length();
+        int length = this.originalMatrix[i][j] == null ? 1 : this.originalMatrix[i][j].length();
+    	  if (lengthCol < length)
+          lengthCol = length;
       }
       lengthCols[j] = lengthCol;
     }
@@ -100,10 +101,10 @@ public class SquareMatrixBordersV2 {
         if (col == 0) {
           displayMatrix.append(VERTICAL_LINE);
         }
-        int emptySpaces = lengthCols[col] - this.originalMatrix[row][col].length();
+        int emptySpaces = lengthCols[col] - (this.originalMatrix[row][col] == null ? 1 : this.originalMatrix[row][col].length());
         displayMatrix
             .append(" ".repeat(emptySpaces))
-            .append(this.originalMatrix[row][col])
+            .append(this.originalMatrix[row][col] == null ? " " : this.originalMatrix[row][col])
             .append(VERTICAL_LINE);
         if (col == lengthCols.length - 1) {
           displayMatrix.append("\n");

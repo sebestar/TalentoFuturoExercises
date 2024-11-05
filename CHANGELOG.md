@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.5.1] - 2024-11-04
+### Fixed
+- class02 SquareMatrixBorders V2 in Class03 blocktwo, fixed for null indexes. 
+
+
 ## [2.5.0] - 2024-11-02
 ### Changed
 - from class02 SquareMatrixBorders, new version V2 in Class03 blocktwo
