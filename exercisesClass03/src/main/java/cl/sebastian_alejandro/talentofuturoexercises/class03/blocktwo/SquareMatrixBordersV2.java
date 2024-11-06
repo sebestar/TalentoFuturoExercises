@@ -91,7 +91,7 @@ public class SquareMatrixBordersV2 {
     this.bottomSeparator = drawBottomSeparator();
   }
 
-  public String getDisplayMatrix2() {
+  public String getDisplayMatrix() {
     StringBuilder displayMatrix = new StringBuilder();
     for (int row = 0; row < originalMatrix.length; row++) {
       if (row == 0) {
