@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [2.6] - 2024-11-05
+### Added
+- class03 blocktwo nQueens Exercise in progress.
+
+
 ## [2.5.2] - 2024-11-05
 ### Fixed
 - class02 SquareMatrixBorders V2 Optimizing code.
